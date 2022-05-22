@@ -1,0 +1,13 @@
+[package]
+name = "herb-market"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.8"
+comfy-table = "5.0"
+toml = "0.5"
+
+[dependencies.serde]
+version = "1.0"
+features = ["derive"]

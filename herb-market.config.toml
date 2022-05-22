@@ -1,0 +1,212 @@
+local_biomes = ["MostTerrain", "Coastal", "Forest", "Grasslands"]
+
+[rarities]
+common = { price_lower = 3, price_upper = 20, likelihood = 0.75 }
+uncommon = { price_lower = 21, price_upper = 50, likelihood = 0.4 }
+rare = { price_lower = 51, price_upper = 150, likelihood = 0.1 }
+very_rare = { price_lower = 151, price_upper = 500, likelihood = 0.03 }
+
+[[herbs]]
+name = "Blood Grass"
+rarity = "Common"
+biomes = ["MostTerrain"]
+
+[[herbs]]
+name = "Chromus Slime"
+rarity = "Rare"
+biomes = ["Coastal", "Underdark"]
+
+[[herbs]]
+name = "Dried Ephedra"
+rarity = "Uncommon"
+biomes = ["Desert", "Mountain"]
+
+[[herbs]]
+name = "Emetic Wax"
+rarity = "Common"
+biomes = ["Forest", "Swamp"]
+
+[[herbs]]
+name = "Fennel Silk"
+rarity = "Common"
+biomes = ["Arctic", "Underdark"]
+
+[[herbs]]
+name = "Gengko Brush"
+rarity = "Uncommon"
+biomes = ["Hills", "Underdark"]
+
+[[herbs]]
+name = "Hyancinth Nectar"
+rarity = "Common"
+biomes = ["Coastal", "Grasslands"]
+
+[[herbs]]
+name = "Lavender Sprig"
+rarity = "Common"
+biomes = ["Coastal", "Grasslands", "Hills"]
+
+[[herbs]]
+name = "Mandrake Root"
+rarity = "Common"
+biomes = ["MostTerrain"]
+
+[[herbs]]
+name = "Milkweed Seeds"
+rarity = "Common"
+biomes = ["MostTerrain"]
+
+[[herbs]]
+name = "Wild Sageroot"
+rarity = "Common"
+biomes = ["MostTerrain"]
+
+[[herbs]]
+name = "Arctic Creeper"
+rarity = "Common"
+biomes = ["Arctic", "Mountain"]
+
+[[herbs]]
+name = "Amanita Cap"
+rarity = "Common"
+biomes = ["Coastal", "Swamp"]
+
+[[herbs]]
+name = "Basilisk Breath"
+rarity = "VeryRare"
+biomes = ["Mountain"]
+
+[[herbs]]
+name = "Cactus Juice"
+rarity = "Common"
+biomes = ["Desert", "Grasslands"]
+
+[[herbs]]
+name = "Drakus Flower"
+rarity = "Common"
+biomes = ["Desert", "Grasslands", "Mountain"]
+
+[[herbs]]
+name = "Frozen Seedlings"
+rarity = "Rare"
+biomes = ["Arctic", "Mountain"]
+
+[[herbs]]
+name = "Quicksilver Lichen"
+rarity = "Uncommon"
+biomes = ["MostTerrain"]
+
+[[herbs]]
+name = "Radiant Synthseed"
+rarity = "Rare"
+biomes = ["Underdark"]
+
+[[herbs]]
+name = "Spineflower Berries"
+rarity = "Uncommon"
+biomes = ["Desert", "Swamp"]
+
+[[herbs]]
+name = "Wyrmtongue Petal"
+rarity = "Common"
+biomes = ["MostTerrain"]
+
+[[herbs]]
+name = "Arrow Root"
+rarity = "Uncommon"
+biomes = ["Desert", "Forest", "Grasslands"]
+
+[[herbs]]
+name = "Blue Toadshade"
+rarity = "Rare"
+biomes = ["Coastal", "Forest", "Swamp"]
+
+[[herbs]]
+name = "Cosmos Glond"
+rarity = "Rare"
+biomes = ["Coastal", "Desert"]
+
+[[herbs]]
+name = "Devil's Bloodleaf"
+rarity = "VeryRare"
+biomes = ["Hills", "Swamp", "Underdark"]
+
+[[herbs]]
+name = "Elemental Water"
+rarity = "Rare"
+biomes = ["MostTerrain"]
+
+[[herbs]]
+name = "Fiend's Ivy"
+rarity = "Rare"
+biomes = ["Arctic", "Underdark"]
+
+[[herbs]]
+name = "Hydrathistle"
+rarity = "Uncommon"
+biomes = ["Coastal", "Swamp"]
+
+[[herbs]]
+name = "Ironwood Heart"
+rarity = "Uncommon"
+biomes = ["Arctic", "Forest", "Hills"]
+
+[[herbs]]
+name = "Luminous Cap Dust"
+rarity = "Rare"
+biomes = ["Mountain", "Forest", "Hills"]
+
+[[herbs]]
+name = "Mortflesh Powder"
+rarity = "VeryRare"
+biomes = ["Arctic", "Underdark"]
+
+[[herbs]]
+name = "Nightshade Berries"
+rarity = "Uncommon"
+biomes = ["Forest", "Hills"]
+
+[[herbs]]
+name = "Primordial Balm"
+rarity = "Rare"
+biomes = ["Mountain", "Swamp", "Underdark"]
+
+[[herbs]]
+name = "Rock Vine"
+rarity = "Rare"
+biomes = ["Hills", "Mountain"]
+
+[[herbs]]
+name = "Scillia Beans"
+rarity = "Common"
+biomes = ["Desert", "Grasslands"]
+
+[[herbs]]
+name = "Silver Hibiscus"
+rarity = "Rare"
+biomes = ["Arctic", "Underdark"]
+
+[[herbs]]
+name = "Tail Leaf"
+rarity = "VeryRare"
+biomes = ["Grasslands", "Hills"]
+
+[[herbs]]
+name = "Verdant Nettle"
+rarity = "Uncommon"
+biomes = ["Forest"]
+
+[[herbs]]
+name = "Voidroot"
+rarity = "VeryRare"
+biomes = ["Arctic", "Desert"]
+
+[[herbs]]
+name = "Wisp Stalks"
+rarity = "VeryRare"
+biomes = ["Forest", "Underdark"]
+
+[[herbs]]
+name = "Wrackwort Bulbs"
+rarity = "Rare"
+biomes = ["Coastal", "Swamp"]
