@@ -95,8 +95,8 @@ struct HerbStock {
 
 fn generate_stock<R: Rng>(cfg: &Config, rng: &mut R) -> Vec<HerbStock> {
     let mut stock = Vec::new();
-    for herb in cfg.herbs.iter() {
-        let is_local = herb.biomes.iter().any(|b| cfg.local_biomes.contains(&b));
+    'herb: for herb in cfg.herbs.iter() {
+        let is_local = herb.biomes.iter().any(|b| cfg.local_biomes.contains(b));
         let effective_rarity = if is_local {
             herb.rarity
         } else {
@@ -105,7 +105,7 @@ fn generate_stock<R: Rng>(cfg: &Config, rng: &mut R) -> Vec<HerbStock> {
                 if let Some(effective_rarity) = tmp.next_rarity() {
                     tmp = effective_rarity;
                 } else {
-                    continue;
+                    continue 'herb;
                 }
             }
             tmp
