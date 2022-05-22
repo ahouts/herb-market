@@ -1,4 +1,5 @@
 local_biomes = ["MostTerrain", "Coastal", "Forest", "Grasslands"]
+not_local_rarity_increase = 2
 
 [rarities]
 common = { price_lower = 3, price_upper = 20, likelihood = 0.75 }

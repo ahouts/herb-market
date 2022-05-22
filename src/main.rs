@@ -82,6 +82,7 @@ impl RarityConfigs {
 #[derive(Debug, Clone, PartialEq, Deserialize)]
 struct Config {
     local_biomes: HashSet<Biome>,
+    not_local_rarity_increase: u8,
     rarities: RarityConfigs,
     herbs: Vec<Herb>,
 }
@@ -99,11 +100,15 @@ fn generate_stock<R: Rng>(cfg: &Config, rng: &mut R) -> Vec<HerbStock> {
         let effective_rarity = if is_local {
             herb.rarity
         } else {
-            if let Some(effective_rarity) = herb.rarity.next_rarity() {
-                effective_rarity
-            } else {
-                continue;
+            let mut tmp = herb.rarity;
+            for _ in 0..cfg.not_local_rarity_increase {
+                if let Some(effective_rarity) = tmp.next_rarity() {
+                    tmp = effective_rarity;
+                } else {
+                    continue;
+                }
             }
+            tmp
         };
         let rarity_config = cfg.rarities.config(effective_rarity);
         let mut quantity = 0;
